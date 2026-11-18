@@ -10,7 +10,7 @@ def create_transaction_ids(count):
     return ids
 
 
-# QUESTION-1:linear search and binary search
+# QUESTION 1: LINEAR AND BINARY SEARCH
 
 def binary_search(ids, target):
     low = 0
@@ -55,7 +55,7 @@ def load_transactions(filename):
     return transactions
 
 
-# Question 2:Implement one O(n²) and one O(n log n) sorting algorithm
+# Question 2:INSERTION AND MERGE SORT
 
 def insertion_sort(data):
     result = data.copy()
@@ -103,7 +103,7 @@ def merge_sort(data):
     return merge(left, right)
 
 
-# Question 3:Detect duplicate orders  using a hash-based structure.
+# Question 3:Detect duplicates
 
 def find_duplicate_postings(data):
     ordered = sorted(data, key=lambda item: item["posting_date"])
@@ -127,7 +127,7 @@ def find_duplicate_postings(data):
     return duplicates
 
 
-# Question 4:Create own Stack to support 'undo last order edit' and your own Queue to model the dispatch line
+# Question 4:QUEUE AND STACK
 
 class ManualReviewQueue:
     def __init__(self):
@@ -173,7 +173,7 @@ class AdjustmentStack:
         return self.items.copy()
 
 
-# Question 5:Compute the minimum number of notes/coins for a refund amount using a greedy approach
+# Question 5: DIVIDE AND CONQUER
 
 def divide_min_max(values):
     if len(values) == 0:
