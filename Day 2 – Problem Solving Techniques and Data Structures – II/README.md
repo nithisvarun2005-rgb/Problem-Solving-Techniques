@@ -425,7 +425,8 @@ E-Commerce-Catalogue-and-Traffic-Analysis/SET-1
 └── README.md
 ```
 
-# Insurance Claims Processing – Data Structures and Algorithms
+
+# Set 2 - Insurance Claims Processing – Data Structures and Algorithms
 
 ## Business Scenario
 
@@ -874,9 +875,8 @@ Insurance-Claims-Processing/SET-2
 └── README.md
 
 ```
-# SET-3
 
-# Insurance Claims Processing – Data Structures and Algorithms
+# SET-3 Insurance Claims Processing – Data Structures and Algorithms
 
 ## Business Scenario
 
